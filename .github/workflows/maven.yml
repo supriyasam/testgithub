@@ -102,8 +102,8 @@ jobs:
     steps:
     - uses: actions/checkout@v4
    
-    - name: Download jar artifact
-      uses: actions/download-artifact@4
+    - name: Download JAR artifact
+      uses: actions/download-artifact@v4
       with:
         name: app-jar
         path: app
